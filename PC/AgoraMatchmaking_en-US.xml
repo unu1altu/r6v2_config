@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agora version="3.4.2">
+  <matchmaking>
+    <attributes>
+      <attribute stringId="AGORA_private_slots" id="0x10000013" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="false">
+        <name>AGORA_private_slots</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues>
+          <preDefvalue defaultValue="true">
+            <type>signed int32</type>
+            <value>1</value>
+            <displayValue>&lt;Insert display string text&gt;</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+        </predefinedValues>
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="AGORA_public_slots" id="0x10000014" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="false">
+        <name>AGORA_public_slots</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues>
+          <preDefvalue defaultValue="true">
+            <type>signed int32</type>
+            <value>255</value>
+            <displayValue>&lt;Insert display string text&gt;</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+        </predefinedValues>
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="AGORA_ownerID" id="0x20000015" visibleClient="false" visibleHost="false" visibleServerBrowser="false" isContext="false">
+        <name>OwnerID</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int64</type>
+        <minValue>0</minValue>
+        <maxValue>0</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="TimeRemaining" id="0x10000019" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="false">
+        <name>&lt;Insert display string text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="NbPlayers" id="0x10000025" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="false">
+        <name>&lt;Insert display string text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="AllowVoice" id="0x10000027" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="false">
+        <name>&lt;Insert display string text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="PrivateServer" id="0x10000028" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="false">
+        <name>&lt;Insert display string text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="Mission" id="0x10000029" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="false">
+        <name>&lt;Insert display string text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="ServerType" id="0x1000002A" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="false">
+        <name>&lt;Insert display string text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="ServerLanguage" id="0x1000002B" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="false">
+        <name>&lt;Insert display string text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="LockedTeam" id="0x1000002C" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="false">
+        <name>&lt;Insert display string text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="AGORA_alternateIP" id="0x1000002F" visibleClient="false" visibleHost="false" visibleServerBrowser="false" isContext="false">
+        <name>&lt;Insert display string text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="AGORA_alternatePort" id="0x10000030" visibleClient="false" visibleHost="false" visibleServerBrowser="false" isContext="false">
+        <name>&lt;Insert display string text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="AGORA_gamePort" id="0x10000031" visibleClient="false" visibleHost="false" visibleServerBrowser="false" isContext="false">
+        <name>&lt;Insert display string text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="AGORA_agoraID" id="0x10000032" visibleClient="false" visibleHost="false" visibleServerBrowser="false" isContext="false">
+        <name>&lt;Insert display string text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="AGORA_gameID" id="0x10000033" visibleClient="false" visibleHost="false" visibleServerBrowser="false" isContext="false">
+        <name>&lt;Insert display string text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="AGORA_ownerIP" id="0x10000034" visibleClient="false" visibleHost="false" visibleServerBrowser="false" isContext="false">
+        <name>&lt;Insert display string text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="AGORA_sessionID" id="0x20000035" visibleClient="false" visibleHost="false" visibleServerBrowser="false" isContext="false">
+        <name>&lt;Insert display string text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int64</type>
+        <minValue>0</minValue>
+        <maxValue>0</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="AGORA_hasMatchStarted" id="0x10000105" visibleClient="true" visibleHost="false" visibleServerBrowser="true" isContext="false">
+        <name>&lt;Insert display string text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="AllowRespawn" id="0x100001FD" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="false">
+        <name>&lt;Insert display string text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="MinPlayers" id="0x100001FE" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="false">
+        <name>&lt;Insert display string text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="MaxPlayers" id="0x100001FF" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="false">
+        <name>&lt;Insert display string text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="IsVisible" id="0x10000201" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="false">
+        <name>&lt;Insert display string text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="AllowJoinInProgress" id="0x10000220" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="false">
+        <name>&lt;String text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="GameVersion" id="0x10000221" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="false">
+        <name>&lt;String text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="LimitedRespawn" id="0x10000239" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="false">
+        <name>&lt;String text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="CheckpointID" id="0x10000245" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="false">
+        <name>&lt;String text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="MatchPecRank" id="0x10000246" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="false">
+        <name>&lt;String text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="MatchTrueSkill" id="0x10000247" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="false">
+        <name>&lt;String text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="MatchDifficulty" id="0x10000254" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="false">
+        <name>&lt;String text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="MatchFriendlyFire" id="0x10000255" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="false">
+        <name>&lt;String text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="MatchKitRestriction" id="0x10000256" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="false">
+        <name>&lt;String text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="AGORA_gameType" id="0x800A" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="true">
+        <name>Game Type</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues>
+          <preDefvalue defaultValue="true">
+            <type>signed int32</type>
+            <value>0</value>
+            <displayValue>Ranked Match</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>1</value>
+            <displayValue>Player Match</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+        </predefinedValues>
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="MAP_NAME" id="0x11" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="true">
+        <name>Map name string</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues>
+          <preDefvalue defaultValue="true">
+            <type>signed int32</type>
+            <value>0</value>
+            <displayValue>Multiplayer</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>1</value>
+            <displayValue>IMPORT/EXPORT</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>2</value>
+            <displayValue>THEATER</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>3</value>
+            <displayValue>VEGAS JUNKYARD</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>4</value>
+            <displayValue>OIL REFINERY</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>5</value>
+            <displayValue>CASINO</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>6</value>
+            <displayValue>TRAINYARD</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>7</value>
+            <displayValue>VILLA</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>8</value>
+            <displayValue>CONVENTION</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>9</value>
+            <displayValue>MURDERTOWN</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>10</value>
+            <displayValue>CQB TRAINING</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>11</value>
+            <displayValue>STREETS</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>12</value>
+            <displayValue>KILL HOUSE</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>13</value>
+            <displayValue>PRESIDIO</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+        </predefinedValues>
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="LOCATION" id="0x16" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="true">
+        <name>Location</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues>
+          <preDefvalue defaultValue="true">
+            <type>signed int32</type>
+            <value>0</value>
+            <displayValue>Single Player</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>1</value>
+            <displayValue>PIC DES PYRÉNÉES</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>2</value>
+            <displayValue>OLD VEGAS</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>3</value>
+            <displayValue>REC CENTER</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>4</value>
+            <displayValue>CONVENTION</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>5</value>
+            <displayValue>THEATER</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>6</value>
+            <displayValue>NEVADA DESERT</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>7</value>
+            <displayValue>ESTATE</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+        </predefinedValues>
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="GameMode" id="0x800B" visibleClient="false" visibleHost="true" visibleServerBrowser="false" isContext="true">
+        <name>&lt;Insert display string text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>0</value>
+            <displayValue>Attack &amp; Defend</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="true">
+            <type>signed int32</type>
+            <value>1</value>
+            <displayValue>Attack &amp; Defend</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>2</value>
+            <displayValue>Deathmatch</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>3</value>
+            <displayValue>Team Deathmatch</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>4</value>
+            <displayValue>Coop Story</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>5</value>
+            <displayValue>Coop Terro Hunt</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>6</value>
+            <displayValue>Total Conquest</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+          <preDefvalue defaultValue="false">
+            <type>signed int32</type>
+            <value>7</value>
+            <displayValue>Team Leader</displayValue>
+            <subPageId>0x0</subPageId>
+          </preDefvalue>
+        </predefinedValues>
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="AGORA_hostName" id="0x40000257" visibleClient="false" visibleHost="false" visibleServerBrowser="false" isContext="false">
+        <name>&lt;Insert display string text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>string</type>
+        <minValue>0</minValue>
+        <maxValue>40</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="AGORA_ownerLogin" id="0x40000258" visibleClient="false" visibleHost="false" visibleServerBrowser="false" isContext="false">
+        <name>&lt;Insert display string text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>string</type>
+        <minValue>0</minValue>
+        <maxValue>40</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="PunkbusterEnable" id="0x1000025B" visibleClient="true" visibleHost="true" visibleServerBrowser="false" isContext="false">
+        <name>&lt;Insert display string text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+      <attribute stringId="PasswordProtected" id="0x1000025C" visibleClient="true" visibleHost="true" visibleServerBrowser="false" isContext="false">
+        <name>&lt;Insert display string text&gt;</name>
+        <description>&lt;Insert display string text&gt;</description>
+        <type>signed int32</type>
+        <minValue>-2147483648</minValue>
+        <maxValue>2147483647</maxValue>
+        <predefinedValues />
+        <subPageId>0</subPageId>
+      </attribute>
+    </attributes>
+    <queries>
+      <query id="0x0" name="Optimatch" maxresults="100" type="normal">
+        <params>
+          <param name="pAGORA_gameType" id="0x800A" dataType="signed int32" isContext="false" value="32778" />
+          <param name="pGameMode" id="0x800B" dataType="signed int32" isContext="false" value="32779" />
+          <param name="pServerType" id="0x1000002A" dataType="signed int32" isContext="false" value="268435498" />
+          <param name="pAllowVoice" id="0x10000027" dataType="signed int32" isContext="false" value="268435495" />
+          <param name="pServerLanguage" id="0x1000002B" dataType="signed int32" isContext="false" value="268435499" />
+          <param name="pMaxPlayers" id="0x10000025" dataType="signed int32" isContext="false" value="268435493" />
+          <param name="pMinPlayers" id="0x10000025" dataType="signed int32" isContext="false" value="268435493" />
+          <param name="pMission" id="0x10000029" dataType="signed int32" isContext="false" value="268435497" />
+          <param name="pIsVisible" id="0x10000201" dataType="signed int32" isContext="false" value="268435969" />
+          <param name="pAllowRespawn" id="0x100001FD" dataType="signed int32" isContext="false" value="268435965" />
+          <param name="pLimitedRespawn" id="0x100001FD" dataType="signed int32" isContext="false" value="268435965" />
+          <param name="pMatchDifficulty" id="0x10000254" dataType="signed int32" isContext="false" value="268436052" />
+          <param name="pCheckpointID" id="0x10000245" dataType="signed int32" isContext="false" value="268436037" />
+          <param name="pPukbusterEnable" id="0x1000025B" dataType="signed int32" isContext="false" value="268436059" />
+          <param name="pPasswordProtected" id="0x1000025C" dataType="signed int32" isContext="false" value="268436060" />
+        </params>
+        <filters>
+          <filter fieldId="0x800A" operator="==" param="pAGORA_gameType" dataType="signed int32" />
+          <filter fieldId="0x800B" operator="==" param="pGameMode" dataType="signed int32" />
+          <filter fieldId="0x1000002A" operator="==" param="pServerType" dataType="signed int32" />
+          <filter fieldId="0x10000027" operator="==" param="pAllowVoice" dataType="signed int32" />
+          <filter fieldId="0x1000002B" operator="==" param="pServerLanguage" dataType="signed int32" />
+          <filter fieldId="0x10000025" operator="&lt;=" param="pMaxPlayers" dataType="signed int32" />
+          <filter fieldId="0x10000025" operator="&gt;=" param="pMinPlayers" dataType="signed int32" />
+          <filter fieldId="0x10000029" operator="==" param="pMission" dataType="signed int32" />
+          <filter fieldId="0x10000201" operator="==" param="pIsVisible" dataType="signed int32" />
+          <filter fieldId="0x100001FD" operator="==" param="pAllowRespawn" dataType="signed int32" />
+          <filter fieldId="0x100001FD" operator="&gt;=" param="pLimitedRespawn" dataType="signed int32" />
+          <filter fieldId="0x10000254" operator="==" param="pMatchDifficulty" dataType="signed int32" />
+          <filter fieldId="0x10000245" operator="==" param="pCheckpointID" dataType="signed int32" />
+          <filter fieldId="0x1000025B" operator="==" param="pPukbusterEnable" dataType="signed int32" />
+          <filter fieldId="0x1000025C" operator="==" param="pPasswordProtected" dataType="signed int32" />
+        </filters>
+        <sortops />
+        <returns>
+          <return id="0x800B" />
+          <return id="0x10000025" />
+          <return id="0x800A" />
+          <return id="0x10000027" />
+          <return id="0x100001FD" />
+          <return id="0x10000019" />
+          <return id="0x1000002B" />
+          <return id="0x10000028" />
+          <return id="0x1000002A" />
+          <return id="0x10000029" />
+          <return id="0x10000032" />
+          <return id="0x1000002F" />
+          <return id="0x10000030" />
+          <return id="0x10000033" />
+          <return id="0x10000031" />
+          <return id="0x20000015" />
+          <return id="0x10000034" />
+          <return id="0x10000013" />
+          <return id="0x10000014" />
+          <return id="0x20000035" />
+          <return id="0x1000002C" />
+          <return id="0x10000105" />
+          <return id="0x10000220" />
+          <return id="0x10000245" />
+          <return id="0x10000246" />
+          <return id="0x10000247" />
+          <return id="0x10000255" />
+          <return id="0x10000256" />
+          <return id="0x40000257" />
+          <return id="0x40000258" />
+          <return id="0x1000025B" />
+          <return id="0x1000025C" />
+          <return id="0x10000254" />
+        </returns>
+      </query>
+      <query id="0x1" name="Quickmatch" maxresults="100" type="normal">
+        <params>
+          <param name="pAGORA_gameType" id="0x800A" dataType="signed int32" isContext="false" value="32778" />
+          <param name="pGameMode" id="0x800B" dataType="signed int32" isContext="false" value="32779" />
+          <param name="pIsVisible" id="0x10000201" dataType="signed int32" isContext="false" value="268435969" />
+        </params>
+        <filters>
+          <filter fieldId="0x800A" operator="==" param="pAGORA_gameType" dataType="signed int32" />
+          <filter fieldId="0x800B" operator="==" param="pGameMode" dataType="signed int32" />
+          <filter fieldId="0x10000201" operator="==" param="pIsVisible" dataType="signed int32" />
+        </filters>
+        <sortops />
+        <returns>
+          <return id="0x800A" />
+          <return id="0x800B" />
+          <return id="0x10000105" />
+          <return id="0x20000035" />
+          <return id="0x10000034" />
+          <return id="0x10000033" />
+          <return id="0x10000032" />
+          <return id="0x10000031" />
+          <return id="0x100001FD" />
+          <return id="0x10000030" />
+          <return id="0x1000002F" />
+          <return id="0x20000015" />
+          <return id="0x10000014" />
+          <return id="0x10000013" />
+          <return id="0x1000002B" />
+          <return id="0x1000002A" />
+          <return id="0x10000028" />
+          <return id="0x1000002C" />
+          <return id="0x10000029" />
+          <return id="0x10000027" />
+          <return id="0x10000025" />
+          <return id="0x10000019" />
+          <return id="0x10000220" />
+          <return id="0x10000245" />
+          <return id="0x10000246" />
+          <return id="0x10000247" />
+          <return id="0x10000255" />
+          <return id="0x10000256" />
+          <return id="0x40000257" />
+          <return id="0x40000258" />
+          <return id="0x1000025B" />
+          <return id="0x1000025C" />
+          <return id="0x10000254" />
+        </returns>
+      </query>
+      <query id="0x2" name="AllMatch" maxresults="100" type="normal">
+        <params>
+          <param name="pGameMode" id="0x800B" dataType="signed int32" isContext="false" value="32779" />
+          <param name="Mission" id="0x10000029" dataType="signed int32" isContext="false" value="0" />
+          <param name="pGameVersion" id="0x10000221" dataType="signed int32" isContext="false" value="268436001" />
+        </params>
+        <filters>
+          <filter fieldId="0x800B" operator="&lt;=" param="pGameMode" dataType="signed int32" />
+          <filter fieldId="0x10000221" operator="==" param="pGameVersion" dataType="signed int32" />
+        </filters>
+        <sortops />
+        <returns>
+          <return id="0x10000221" />
+          <return id="0x800B" />
+          <return id="0x10000025" />
+          <return id="0x800A" />
+          <return id="0x10000027" />
+          <return id="0x100001FD" />
+          <return id="0x10000019" />
+          <return id="0x1000002B" />
+          <return id="0x10000028" />
+          <return id="0x1000002A" />
+          <return id="0x10000029" />
+          <return id="0x10000032" />
+          <return id="0x1000002F" />
+          <return id="0x10000030" />
+          <return id="0x10000033" />
+          <return id="0x10000031" />
+          <return id="0x20000015" />
+          <return id="0x10000034" />
+          <return id="0x10000013" />
+          <return id="0x10000014" />
+          <return id="0x20000035" />
+          <return id="0x1000002C" />
+          <return id="0x10000105" />
+          <return id="0x10000220" />
+          <return id="0x10000245" />
+          <return id="0x10000247" />
+          <return id="0x10000246" />
+          <return id="0x10000255" />
+          <return id="0x10000256" />
+          <return id="0x40000257" />
+          <return id="0x40000258" />
+          <return id="0x1000025B" />
+          <return id="0x1000025C" />
+          <return id="0x10000254" />
+        </returns>
+      </query>
+      <query id="0x3" name="StoryMatch" maxresults="100" type="normal">
+        <params>
+          <param name="GameMode" id="0x800B" dataType="signed int32" isContext="false" value="32779" />
+          <param name="CheckpointID" id="0x10000245" dataType="signed int32" isContext="false" value="268436037" />
+          <param name="Mission" id="0x10000029" dataType="signed int32" isContext="false" value="268435497" />
+        </params>
+        <filters>
+          <filter fieldId="0x10000245" operator="==" param="CheckpointID" dataType="signed int32" />
+          <filter fieldId="0x10000029" operator="==" param="Mission" dataType="signed int32" />
+          <filter fieldId="0x800B" operator="==" param="GameMode" dataType="signed int32" />
+        </filters>
+        <sortops />
+        <returns>
+          <return id="0x800A" />
+          <return id="0x800B" />
+          <return id="0x10000105" />
+          <return id="0x20000035" />
+          <return id="0x10000034" />
+          <return id="0x10000033" />
+          <return id="0x10000032" />
+          <return id="0x10000031" />
+          <return id="0x100001FD" />
+          <return id="0x10000030" />
+          <return id="0x1000002F" />
+          <return id="0x20000015" />
+          <return id="0x10000014" />
+          <return id="0x10000013" />
+          <return id="0x1000002B" />
+          <return id="0x1000002A" />
+          <return id="0x10000028" />
+          <return id="0x1000002C" />
+          <return id="0x10000029" />
+          <return id="0x10000027" />
+          <return id="0x10000025" />
+          <return id="0x10000019" />
+          <return id="0x10000220" />
+          <return id="0x10000245" />
+          <return id="0x10000246" />
+          <return id="0x10000247" />
+          <return id="0x10000255" />
+          <return id="0x40000257" />
+          <return id="0x40000258" />
+          <return id="0x1000025B" />
+          <return id="0x1000025C" />
+          <return id="0x10000254" />
+        </returns>
+      </query>
+      <query id="0x4" name="OptimatchLessThanGM" maxresults="100" type="normal">
+        <params>
+          <param name="pAGORA_gameType" id="0x800A" dataType="signed int32" isContext="false" value="32778" />
+          <param name="pGameMode" id="0x800B" dataType="signed int32" isContext="false" value="32779" />
+          <param name="pServerType" id="0x1000002A" dataType="signed int32" isContext="false" value="268435498" />
+          <param name="pAllowVoice" id="0x10000027" dataType="signed int32" isContext="false" value="268435495" />
+          <param name="pServerLanguage" id="0x1000002B" dataType="signed int32" isContext="false" value="268435499" />
+          <param name="pMaxPlayers" id="0x10000025" dataType="signed int32" isContext="false" value="268435493" />
+          <param name="pMinPlayers" id="0x10000025" dataType="signed int32" isContext="false" value="268435493" />
+          <param name="pMission" id="0x10000029" dataType="signed int32" isContext="false" value="268435497" />
+          <param name="pIsVisible" id="0x10000201" dataType="signed int32" isContext="false" value="268435969" />
+          <param name="pAllowRespawn" id="0x100001FD" dataType="signed int32" isContext="false" value="268435965" />
+          <param name="pLimitedRespawn" id="0x100001FD" dataType="signed int32" isContext="false" value="268435965" />
+          <param name="pMatchDifficulty" id="0x10000254" dataType="signed int32" isContext="false" value="268436052" />
+          <param name="pCheckpointID" id="0x10000245" dataType="signed int32" isContext="false" value="268436037" />
+          <param name="pPukbusterEnable" id="0x1000025B" dataType="signed int32" isContext="false" value="268436059" />
+          <param name="pPasswordProtected" id="0x1000025C" dataType="signed int32" isContext="false" value="268436060" />
+        </params>
+        <filters>
+          <filter fieldId="0x800A" operator="==" param="pAGORA_gameType" dataType="signed int32" />
+          <filter fieldId="0x800B" operator="&lt;=" param="pGameMode" dataType="signed int32" />
+          <filter fieldId="0x1000002A" operator="==" param="pServerType" dataType="signed int32" />
+          <filter fieldId="0x10000027" operator="==" param="pAllowVoice" dataType="signed int32" />
+          <filter fieldId="0x1000002B" operator="==" param="pServerLanguage" dataType="signed int32" />
+          <filter fieldId="0x10000025" operator="&lt;=" param="pMaxPlayers" dataType="signed int32" />
+          <filter fieldId="0x10000025" operator="&gt;=" param="pMinPlayers" dataType="signed int32" />
+          <filter fieldId="0x10000029" operator="==" param="pMission" dataType="signed int32" />
+          <filter fieldId="0x10000201" operator="==" param="pIsVisible" dataType="signed int32" />
+          <filter fieldId="0x100001FD" operator="==" param="pAllowRespawn" dataType="signed int32" />
+          <filter fieldId="0x100001FD" operator="&gt;=" param="pLimitedRespawn" dataType="signed int32" />
+          <filter fieldId="0x10000254" operator="==" param="pMatchDifficulty" dataType="signed int32" />
+          <filter fieldId="0x10000245" operator="==" param="pCheckpointID" dataType="signed int32" />
+          <filter fieldId="0x1000025B" operator="==" param="pPukbusterEnable" dataType="signed int32" />
+          <filter fieldId="0x1000025C" operator="==" param="pPasswordProtected" dataType="signed int32" />
+        </filters>
+        <sortops />
+        <returns>
+          <return id="0x800B" />
+          <return id="0x10000025" />
+          <return id="0x800A" />
+          <return id="0x10000027" />
+          <return id="0x100001FD" />
+          <return id="0x10000019" />
+          <return id="0x1000002B" />
+          <return id="0x10000028" />
+          <return id="0x1000002A" />
+          <return id="0x10000029" />
+          <return id="0x10000032" />
+          <return id="0x1000002F" />
+          <return id="0x10000030" />
+          <return id="0x10000033" />
+          <return id="0x10000031" />
+          <return id="0x20000015" />
+          <return id="0x10000034" />
+          <return id="0x10000013" />
+          <return id="0x10000014" />
+          <return id="0x20000035" />
+          <return id="0x1000002C" />
+          <return id="0x10000105" />
+          <return id="0x10000220" />
+          <return id="0x10000245" />
+          <return id="0x10000246" />
+          <return id="0x10000247" />
+          <return id="0x10000255" />
+          <return id="0x10000256" />
+          <return id="0x40000257" />
+          <return id="0x40000258" />
+          <return id="0x1000025B" />
+          <return id="0x1000025C" />
+          <return id="0x10000254" />
+        </returns>
+      </query>
+      <query id="0x5" name="QuickmatchLessThanGM" maxresults="100" type="normal">
+        <params>
+          <param name="pAGORA_gameType" id="0x800A" dataType="signed int32" isContext="false" value="32778" />
+          <param name="pGameMode" id="0x800B" dataType="signed int32" isContext="false" value="32779" />
+          <param name="pIsVisible" id="0x10000201" dataType="signed int32" isContext="false" value="268435969" />
+        </params>
+        <filters>
+          <filter fieldId="0x800A" operator="==" param="pAGORA_gameType" dataType="signed int32" />
+          <filter fieldId="0x800B" operator="&lt;=" param="pGameMode" dataType="signed int32" />
+          <filter fieldId="0x10000201" operator="==" param="pIsVisible" dataType="signed int32" />
+        </filters>
+        <sortops />
+        <returns>
+          <return id="0x800A" />
+          <return id="0x800B" />
+          <return id="0x10000105" />
+          <return id="0x20000035" />
+          <return id="0x10000034" />
+          <return id="0x10000033" />
+          <return id="0x10000032" />
+          <return id="0x10000031" />
+          <return id="0x100001FD" />
+          <return id="0x10000030" />
+          <return id="0x1000002F" />
+          <return id="0x20000015" />
+          <return id="0x10000014" />
+          <return id="0x10000013" />
+          <return id="0x1000002B" />
+          <return id="0x1000002A" />
+          <return id="0x10000028" />
+          <return id="0x1000002C" />
+          <return id="0x10000029" />
+          <return id="0x10000027" />
+          <return id="0x10000025" />
+          <return id="0x10000019" />
+          <return id="0x10000220" />
+          <return id="0x10000245" />
+          <return id="0x10000246" />
+          <return id="0x10000247" />
+          <return id="0x10000255" />
+          <return id="0x10000256" />
+          <return id="0x40000257" />
+          <return id="0x40000258" />
+          <return id="0x1000025B" />
+          <return id="0x1000025C" />
+          <return id="0x10000254" />
+        </returns>
+      </query>
+    </queries>
+  </matchmaking>
+</agora>
+

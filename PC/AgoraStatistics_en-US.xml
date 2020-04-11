@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agora version="3.4.2">
+  <statistics>
+    <attributes>
+      <attribute stringId="STATS_AttackDefendTime" id="0x10000040" type="signed int32" />
+      <attribute stringId="STATS_AttackDefendKills" id="0x10000041" type="signed int32" />
+      <attribute stringId="STATS_AttackDefendDeaths" id="0x10000042" type="signed int32" />
+      <attribute stringId="STATS_AttackDefendBriefcases" id="0x10000045" type="signed int32" />
+      <attribute stringId="STATS_AttackDefendRating" id="0x20000046" type="signed int64" />
+      <attribute stringId="STATS_AttackDefendShots" id="0x1000004A" type="signed int32" />
+      <attribute stringId="STATS_AttackDefendHostages" id="0x1000004B" type="signed int32" />
+      <attribute stringId="STATS_AttackDefendHits" id="0x1000004C" type="signed int32" />
+      <attribute stringId="STATS_AttackDefendBombsDefused" id="0x1000004D" type="signed int32" />
+      <attribute stringId="STATS_OverallKills" id="0x1000006F" type="signed int32" />
+      <attribute stringId="STATS_OverallDeaths" id="0x10000070" type="signed int32" />
+      <attribute stringId="STATS_OverallHeadshots" id="0x10000071" type="signed int32" />
+      <attribute stringId="STATS_OverallShots" id="0x10000072" type="signed int32" />
+      <attribute stringId="STATS_OverallHits" id="0x10000073" type="signed int32" />
+      <attribute stringId="STATS_OverallPECRank" id="0x10000074" type="signed int32" />
+      <attribute stringId="STATS_OverallKillingStreak" id="0x10000075" type="signed int32" />
+      <attribute stringId="STATS_OverallDeathStreak" id="0x10000076" type="signed int32" />
+      <attribute stringId="STATS_OverallRanking" id="0x20000077" type="signed int64" />
+      <attribute stringId="STATS_MK23Kills" id="0x10000078" type="signed int32" />
+      <attribute stringId="STATS_MK23Time" id="0x1000007A" type="signed int32" />
+      <attribute stringId="STATS_USP40Kills" id="0x1000007C" type="signed int32" />
+      <attribute stringId="STATS_USP40Time" id="0x1000007E" type="signed int32" />
+      <attribute stringId="STATS_92FSKills" id="0x1000007F" type="signed int32" />
+      <attribute stringId="STATS_92FSTime" id="0x10000081" type="signed int32" />
+      <attribute stringId="STATS_GLOCK18Kills" id="0x10000082" type="signed int32" />
+      <attribute stringId="STATS_GLOCK18Time" id="0x10000084" type="signed int32" />
+      <attribute stringId="STATS_DEKills" id="0x10000085" type="signed int32" />
+      <attribute stringId="STATS_DETime" id="0x10000087" type="signed int32" />
+      <attribute stringId="STATS_BULLKills" id="0x10000088" type="signed int32" />
+      <attribute stringId="STATS_BULLTime" id="0x1000008A" type="signed int32" />
+      <attribute stringId="STATS_PistolRating" id="0x2000008B" type="signed int64" />
+      <attribute stringId="STATS_MP5Kills" id="0x1000008C" type="signed int32" />
+      <attribute stringId="STATS_MP5Time" id="0x1000008E" type="signed int32" />
+      <attribute stringId="STATS_MP7A1Kills" id="0x1000008F" type="signed int32" />
+      <attribute stringId="STATS_MP7A1Time" id="0x10000091" type="signed int32" />
+      <attribute stringId="STATS_UMP45Kills" id="0x10000092" type="signed int32" />
+      <attribute stringId="STATS_UMP45Time" id="0x10000094" type="signed int32" />
+      <attribute stringId="STATS_P90Kills" id="0x10000095" type="signed int32" />
+      <attribute stringId="STATS_P90Time" id="0x10000097" type="signed int32" />
+      <attribute stringId="STATS_MP9Kills" id="0x10000099" type="signed int32" />
+      <attribute stringId="STATS_MP9Time" id="0x1000009B" type="signed int32" />
+      <attribute stringId="STATS_MAC11Kills" id="0x1000009C" type="signed int32" />
+      <attribute stringId="STATS_MAC11Time" id="0x1000009E" type="signed int32" />
+      <attribute stringId="STATS_SCARKills" id="0x100000A0" type="signed int32" />
+      <attribute stringId="STATS_SCARTime" id="0x100000A2" type="signed int32" />
+      <attribute stringId="STATS_M8Kills" id="0x100000A3" type="signed int32" />
+      <attribute stringId="STATS_M8Time" id="0x100000A5" type="signed int32" />
+      <attribute stringId="STATS_AUGA3Kills" id="0x100000A6" type="signed int32" />
+      <attribute stringId="STATS_AUGA3Time" id="0x100000A8" type="signed int32" />
+      <attribute stringId="STATS_GSKA4Time" id="0x100000AB" type="signed int32" />
+      <attribute stringId="STATS_552CKills" id="0x100000AD" type="signed int32" />
+      <attribute stringId="STATS_552CTime" id="0x100000AF" type="signed int32" />
+      <attribute stringId="STATS_G36CKills" id="0x100000B0" type="signed int32" />
+      <attribute stringId="STATS_G36CTime" id="0x100000B2" type="signed int32" />
+      <attribute stringId="STATS_MTAR21Kills" id="0x100000B3" type="signed int32" />
+      <attribute stringId="STATS_MTAR21Time" id="0x100000B5" type="signed int32" />
+      <attribute stringId="STATS_FamasKills" id="0x100000B6" type="signed int32" />
+      <attribute stringId="STATS_FamasTime" id="0x100000B8" type="signed int32" />
+      <attribute stringId="STATS_AK47Kills" id="0x100000B9" type="signed int32" />
+      <attribute stringId="STATS_AK47Time" id="0x100000BB" type="signed int32" />
+      <attribute stringId="STATS_G3KA4Kills" id="0x100000BD" type="signed int32" />
+      <attribute stringId="STATS_MK46Kills" id="0x100000C0" type="signed int32" />
+      <attribute stringId="STATS_MK46Time" id="0x100000C2" type="signed int32" />
+      <attribute stringId="STATS_21EKills" id="0x100000C3" type="signed int32" />
+      <attribute stringId="STATS_21ETime" id="0x100000C5" type="signed int32" />
+      <attribute stringId="STATS_M249Kills" id="0x100000C6" type="signed int32" />
+      <attribute stringId="STATS_M249Time" id="0x100000C8" type="signed int32" />
+      <attribute stringId="STATS_MG36Kills" id="0x100000C9" type="signed int32" />
+      <attribute stringId="STATS_MG36Time" id="0x100000CB" type="signed int32" />
+      <attribute stringId="STATS_M3Kills" id="0x100000CD" type="signed int32" />
+      <attribute stringId="STATS_M3Time" id="0x100000CF" type="signed int32" />
+      <attribute stringId="STATS_SPAS12Kills" id="0x100000D0" type="signed int32" />
+      <attribute stringId="STATS_SPAS12Time" id="0x100000D2" type="signed int32" />
+      <attribute stringId="STATS_870MCSKills" id="0x100000D3" type="signed int32" />
+      <attribute stringId="STATS_870MCSTime" id="0x100000D5" type="signed int32" />
+      <attribute stringId="STATS_XM26Kills" id="0x100000D6" type="signed int32" />
+      <attribute stringId="STATS_XM26Time" id="0x100000D8" type="signed int32" />
+      <attribute stringId="STATS_ShotgunRating" id="0x200000D9" type="signed int64" />
+      <attribute stringId="STATS_PSG1Kills" id="0x100000DB" type="signed int32" />
+      <attribute stringId="STATS_PSG1Time" id="0x100000DD" type="signed int32" />
+      <attribute stringId="STATS_M40A1Kills" id="0x100000DE" type="signed int32" />
+      <attribute stringId="STATS_M40A1Time" id="0x100000E0" type="signed int32" />
+      <attribute stringId="STATS_SV98Kills" id="0x100000E1" type="signed int32" />
+      <attribute stringId="STATS_SV98Time" id="0x100000E3" type="signed int32" />
+      <attribute stringId="STATS_ScoutKills" id="0x100000E4" type="signed int32" />
+      <attribute stringId="STATS_ScoutTime" id="0x100000E6" type="signed int32" />
+      <attribute stringId="STATS_MapRating" id="0x20000101" type="signed int64" />
+      <attribute stringId="STATS_ConquestDeaths" id="0x10000182" type="signed int32" />
+      <attribute stringId="STATS_ConquestKills" id="0x10000183" type="signed int32" />
+      <attribute stringId="STATS_ConquestTime" id="0x10000184" type="signed int32" />
+      <attribute stringId="STATS_ConquestShots" id="0x10000185" type="signed int32" />
+      <attribute stringId="STATS_ConquestHits" id="0x10000186" type="signed int32" />
+      <attribute stringId="STATS_ConquestMRI" id="0x10000187" type="signed int32" />
+      <attribute stringId="STATS_ConquestRating" id="0x2000018A" type="signed int64" />
+      <attribute stringId="STATS_MapDownload01Deaths" id="0x1000018E" type="signed int32" />
+      <attribute stringId="STATS_MapDownload01Kills" id="0x1000018F" type="signed int32" />
+      <attribute stringId="STATS_MapDownload01Time" id="0x10000190" type="signed int32" />
+      <attribute stringId="STATS_MapDownload02Deaths" id="0x10000191" type="signed int32" />
+      <attribute stringId="STATS_MapDownload02Kills" id="0x10000192" type="signed int32" />
+      <attribute stringId="STATS_MapDownload02Time" id="0x10000193" type="signed int32" />
+      <attribute stringId="STATS_MapDownload03Deaths" id="0x10000194" type="signed int32" />
+      <attribute stringId="STATS_MapDownload03Kills" id="0x10000195" type="signed int32" />
+      <attribute stringId="STATS_MapDownload03Time" id="0x10000196" type="signed int32" />
+      <attribute stringId="STATS_MapDownload04Deaths" id="0x10000197" type="signed int32" />
+      <attribute stringId="STATS_MapDownload04Kills" id="0x10000198" type="signed int32" />
+      <attribute stringId="STATS_MapDownload04Time" id="0x10000199" type="signed int32" />
+      <attribute stringId="STATS_MapDownload05Deaths" id="0x1000019A" type="signed int32" />
+      <attribute stringId="STATS_MapDownload05Kills" id="0x1000019B" type="signed int32" />
+      <attribute stringId="STATS_MapDownload05Time" id="0x1000019C" type="signed int32" />
+      <attribute stringId="STATS_MapDownload06Deaths" id="0x1000019D" type="signed int32" />
+      <attribute stringId="STATS_MapDownload06Kills" id="0x1000019E" type="signed int32" />
+      <attribute stringId="STATS_MapDownload06Time" id="0x1000019F" type="signed int32" />
+      <attribute stringId="STATS_MapDownload07Deaths" id="0x100001A0" type="signed int32" />
+      <attribute stringId="STATS_MapDownload07Kills" id="0x100001A1" type="signed int32" />
+      <attribute stringId="STATS_MapDownload07Time" id="0x100001A2" type="signed int32" />
+      <attribute stringId="STATS_MapDownload08Deaths" id="0x100001A3" type="signed int32" />
+      <attribute stringId="STATS_MapDownload08Kills" id="0x100001A4" type="signed int32" />
+      <attribute stringId="STATS_MapDownload08Time" id="0x100001A5" type="signed int32" />
+      <attribute stringId="STATS_MapDownload09Deaths" id="0x100001A6" type="signed int32" />
+      <attribute stringId="STATS_MapDownload09Kills" id="0x100001A7" type="signed int32" />
+      <attribute stringId="STATS_MapDownload09Time" id="0x100001A8" type="signed int32" />
+      <attribute stringId="STATS_MapDownload10Deaths" id="0x100001A9" type="signed int32" />
+      <attribute stringId="STATS_MapDownload10Kills" id="0x100001AA" type="signed int32" />
+      <attribute stringId="STATS_MapDownload10Time" id="0x100001AB" type="signed int32" />
+      <attribute stringId="STATS_MapDownload11Deaths" id="0x100001AC" type="signed int32" />
+      <attribute stringId="STATS_MapDownload11Kills" id="0x100001AD" type="signed int32" />
+      <attribute stringId="STATS_MapDownload11Time" id="0x100001AE" type="signed int32" />
+      <attribute stringId="STATS_MapDownloadRanking" id="0x200001AF" type="signed int64" />
+      <attribute stringId="STATS_MapDownload12Deaths" id="0x100001C6" type="signed int32" />
+      <attribute stringId="STATS_MapDownload13Deaths" id="0x100001C7" type="signed int32" />
+      <attribute stringId="STATS_MapDownload14Deaths" id="0x100001C8" type="signed int32" />
+      <attribute stringId="STATS_MapDownload15Deaths" id="0x100001C9" type="signed int32" />
+      <attribute stringId="STATS_MapDownload16Deaths" id="0x100001CA" type="signed int32" />
+      <attribute stringId="STATS_MapDownload17Deaths" id="0x100001CB" type="signed int32" />
+      <attribute stringId="STATS_MapDownload18Deaths" id="0x100001CC" type="signed int32" />
+      <attribute stringId="STATS_MapDownload19Deaths" id="0x100001CD" type="signed int32" />
+      <attribute stringId="STATS_MapDownload20Deaths" id="0x100001CE" type="signed int32" />
+      <attribute stringId="STATS_MapDownload12Kills" id="0x100001CF" type="signed int32" />
+      <attribute stringId="STATS_MapDownload13Kills" id="0x100001D0" type="signed int32" />
+      <attribute stringId="STATS_MapDownload14Kills" id="0x100001D1" type="signed int32" />
+      <attribute stringId="STATS_MapDownload15Kills" id="0x100001D2" type="signed int32" />
+      <attribute stringId="STATS_MapDownload16Kills" id="0x100001D3" type="signed int32" />
+      <attribute stringId="STATS_MapDownload17Kills" id="0x100001D4" type="signed int32" />
+      <attribute stringId="STATS_MapDownload18Kills" id="0x100001D5" type="signed int32" />
+      <attribute stringId="STATS_MapDownload19Kills" id="0x100001D6" type="signed int32" />
+      <attribute stringId="STATS_MapDownload20Kills" id="0x100001D7" type="signed int32" />
+      <attribute stringId="STATS_MapDownload12Time" id="0x100001D8" type="signed int32" />
+      <attribute stringId="STATS_MapDownload13Time" id="0x100001D9" type="signed int32" />
+      <attribute stringId="STATS_MapDownload14Time" id="0x100001DA" type="signed int32" />
+      <attribute stringId="STATS_MapDownload15Time" id="0x100001DB" type="signed int32" />
+      <attribute stringId="STATS_MapDownload16Time" id="0x100001DC" type="signed int32" />
+      <attribute stringId="STATS_MapDownload17Time" id="0x100001DD" type="signed int32" />
+      <attribute stringId="STATS_MapDownload18Time" id="0x100001DE" type="signed int32" />
+      <attribute stringId="STATS_MapDownload20Time" id="0x100001DF" type="signed int32" />
+      <attribute stringId="STATS_MapDownload19Time" id="0x100001E0" type="signed int32" />
+      <attribute stringId="STATS_MapDownload02Ranking" id="0x200001E7" type="signed int64" />
+      <attribute stringId="STATS_OverallDay" id="0x100001FA" type="signed int32" />
+      <attribute stringId="STATS_OverallMonth" id="0x100001FB" type="signed int32" />
+      <attribute stringId="STATS_OverallYear" id="0x100001FC" type="signed int32" />
+      <attribute stringId="STATS_P99Kills" id="0x10000222" type="signed int32" />
+      <attribute stringId="STATS_P99Time" id="0x10000223" type="signed int32" />
+      <attribute stringId="STATS_AUGParaKills" id="0x10000224" type="signed int32" />
+      <attribute stringId="STATS_AUGParaTime" id="0x10000225" type="signed int32" />
+      <attribute stringId="STATS_Type05JSKills" id="0x10000226" type="signed int32" />
+      <attribute stringId="STATS_Type05JSTime" id="0x10000227" type="signed int32" />
+      <attribute stringId="STATS_VZ83Kills" id="0x10000228" type="signed int32" />
+      <attribute stringId="STATS_VZ83Time" id="0x10000229" type="signed int32" />
+      <attribute stringId="STATS_FNCKills" id="0x1000022A" type="signed int32" />
+      <attribute stringId="STATS_FNCTime" id="0x1000022B" type="signed int32" />
+      <attribute stringId="STATS_L85A2Kills" id="0x1000022C" type="signed int32" />
+      <attribute stringId="STATS_L85A2Time" id="0x1000022D" type="signed int32" />
+      <attribute stringId="STATS_AKS74UKills" id="0x1000022E" type="signed int32" />
+      <attribute stringId="STATS_AKS74UTime" id="0x1000022F" type="signed int32" />
+      <attribute stringId="STATS_M468Kills" id="0x10000230" type="signed int32" />
+      <attribute stringId="STATS_M468Time" id="0x10000231" type="signed int32" />
+      <attribute stringId="STATS_500TacticalKills" id="0x10000232" type="signed int32" />
+      <attribute stringId="STATS_500TacticalTime" id="0x10000233" type="signed int32" />
+      <attribute stringId="STATS_L96ArticWarfareKills" id="0x10000234" type="signed int32" />
+      <attribute stringId="STATS_L96ArticWarfareTime" id="0x10000235" type="signed int32" />
+      <attribute stringId="STATS_SR25SDKills" id="0x10000236" type="signed int32" />
+      <attribute stringId="STATS_SR25SDTime" id="0x10000237" type="signed int32" />
+      <attribute stringId="STATS_AttackDefendBombsPlanted" id="0x1000023A" type="signed int32" />
+      <attribute stringId="STATS_TeamLeaderKills" id="0x1000023B" type="signed int32" />
+      <attribute stringId="STATS_TeamLeaderShots" id="0x1000023C" type="signed int32" />
+      <attribute stringId="STATS_TeamLeaderHits" id="0x1000023D" type="signed int32" />
+      <attribute stringId="STATS_TeamLeaderDeaths" id="0x1000023E" type="signed int32" />
+      <attribute stringId="STATS_TeamLeaderRating" id="0x2000023F" type="signed int64" />
+      <attribute stringId="STATS_TeamLeaderTime" id="0x10000240" type="signed int32" />
+      <attribute stringId="STATS_TeamLeaderLeadersKilled" id="0x10000241" type="signed int32" />
+      <attribute stringId="STATS_OverallTeamKills" id="0x10000243" type="signed int32" />
+      <attribute stringId="STATS_TeamLeaderExtractions" id="0x10000244" type="signed int32" />
+      <attribute stringId="STATS_DeathmatchDeaths" id="0x10000248" type="signed int32" />
+      <attribute stringId="STATS_DeathmatchHits" id="0x10000249" type="signed int32" />
+      <attribute stringId="STATS_DeathmatchKills" id="0x1000024A" type="signed int32" />
+      <attribute stringId="STATS_DeathmatchRating" id="0x2000024B" type="signed int64" />
+      <attribute stringId="STATS_DeathmatchShots" id="0x1000024C" type="signed int32" />
+      <attribute stringId="STATS_DeathmatchTime" id="0x1000024D" type="signed int32" />
+      <attribute stringId="STATS_TeamDeathmatchDeaths" id="0x1000024E" type="signed int32" />
+      <attribute stringId="STATS_TeamDeathmatchHits" id="0x1000024F" type="signed int32" />
+      <attribute stringId="STATS_TeamDeathmatchKills" id="0x10000250" type="signed int32" />
+      <attribute stringId="STATS_TeamDeathmatchRating" id="0x20000251" type="signed int64" />
+      <attribute stringId="STATS_TeamDeathmatchShots" id="0x10000252" type="signed int32" />
+      <attribute stringId="STATS_TeamDeathmatchTime" id="0x10000253" type="signed int32" />
+      <attribute stringId="STATS_MapImportKills" id="0x10000271" type="signed int32" />
+      <attribute stringId="STATS_MapImportDeaths" id="0x10000272" type="signed int32" />
+      <attribute stringId="STATS_MapImportTime" id="0x10000273" type="signed int32" />
+      <attribute stringId="STATS_MapDantesKills" id="0x10000274" type="signed int32" />
+      <attribute stringId="STATS_MapDantesDeaths" id="0x10000275" type="signed int32" />
+      <attribute stringId="STATS_MapDantesTime" id="0x10000276" type="signed int32" />
+      <attribute stringId="STATS_MapNeonKills" id="0x10000278" type="signed int32" />
+      <attribute stringId="STATS_MapNeonDeaths" id="0x10000279" type="signed int32" />
+      <attribute stringId="STATS_MapNeonTime" id="0x1000027A" type="signed int32" />
+      <attribute stringId="STATS_MapOilKills" id="0x1000027B" type="signed int32" />
+      <attribute stringId="STATS_MapOilDeaths" id="0x1000027C" type="signed int32" />
+      <attribute stringId="STATS_MapOilTime" id="0x1000027D" type="signed int32" />
+      <attribute stringId="STATS_MapChineseKills" id="0x1000027E" type="signed int32" />
+      <attribute stringId="STATS_MapChineseDeaths" id="0x1000027F" type="signed int32" />
+      <attribute stringId="STATS_MapChineseTime" id="0x10000280" type="signed int32" />
+      <attribute stringId="STATS_MapTrainyardKills" id="0x10000281" type="signed int32" />
+      <attribute stringId="STATS_MapTrainyardDeaths" id="0x10000282" type="signed int32" />
+      <attribute stringId="STATS_MapTrainyardTime" id="0x10000283" type="signed int32" />
+      <attribute stringId="STATS_MapPenthouseKills" id="0x10000284" type="signed int32" />
+      <attribute stringId="STATS_MapPenthouseDeaths" id="0x10000285" type="signed int32" />
+      <attribute stringId="STATS_MapPenthouseTime" id="0x10000286" type="signed int32" />
+      <attribute stringId="STATS_MapConvenKills" id="0x10000287" type="signed int32" />
+      <attribute stringId="STATS_MapConvenDeaths" id="0x10000288" type="signed int32" />
+      <attribute stringId="STATS_MapConvenTime" id="0x10000289" type="signed int32" />
+      <attribute stringId="STATS_MapMurderTownKills" id="0x1000028A" type="signed int32" />
+      <attribute stringId="STATS_MapMurderTownDeaths" id="0x1000028B" type="signed int32" />
+      <attribute stringId="STATS_MapMurderTownTime" id="0x1000028C" type="signed int32" />
+      <attribute stringId="STATS_MapTrainingKills" id="0x1000028D" type="signed int32" />
+      <attribute stringId="STATS_MapTrainingDeaths" id="0x1000028E" type="signed int32" />
+      <attribute stringId="STATS_MapTrainingTime" id="0x1000028F" type="signed int32" />
+      <attribute stringId="STATS_MapStreetsKills" id="0x10000290" type="signed int32" />
+      <attribute stringId="STATS_MapStreetsDeaths" id="0x10000291" type="signed int32" />
+      <attribute stringId="STATS_MapStreetsTime" id="0x10000292" type="signed int32" />
+      <attribute stringId="STATS_MapKillhouseKills" id="0x10000294" type="signed int32" />
+      <attribute stringId="STATS_MapKillhouseDeaths" id="0x10000295" type="signed int32" />
+      <attribute stringId="STATS_MapKillhouseTime" id="0x10000296" type="signed int32" />
+      <attribute stringId="STATS_MapPresidioKills" id="0x10000297" type="signed int32" />
+      <attribute stringId="STATS_MapPresidioDeaths" id="0x10000298" type="signed int32" />
+      <attribute stringId="STATS_MapPresidioTime" id="0x10000299" type="signed int32" />
+      <attribute stringId="STATS_MapConventKills" id="0x1000029A" type="signed int32" />
+      <attribute stringId="STATS_MapConventDeaths" id="0x1000029B" type="signed int32" />
+      <attribute stringId="STATS_MapConventTime" id="0x1000029C" type="signed int32" />
+      <attribute stringId="TrueSkill_Relative_Score" id="0x1000800A" type="signed int32" />
+      <attribute stringId="TrueSkill_Session_Team" id="0x1000800B" type="signed int32" />
+    </attributes>
+    <leaderboards>
+      <leaderboard stringId="Attack_and_Defend" id="0x60" arbitrated="false" resetType="Never" serverLocation="DemonWare" isTeamLB="false" ratingColumn="0xA">
+        <Columns>
+          <column stringId="Kills" id="0x2" attributeId="0x10000041" aggregation="Sum" />
+          <column stringId="Deaths" id="0x3" attributeId="0x10000042" aggregation="Sum" />
+          <column stringId="Shots" id="0x4" attributeId="0x1000004A" aggregation="Sum" />
+          <column stringId="Hits" id="0x6" attributeId="0x1000004C" aggregation="Sum" />
+          <column stringId="Total_Time" id="0x1" attributeId="0x10000040" aggregation="Sum" />
+          <column stringId="Briefcases" id="0x5" attributeId="0x10000045" aggregation="Sum" />
+          <column stringId="Hostages" id="0x7" attributeId="0x1000004B" aggregation="Sum" />
+          <column stringId="BombsPlanted" id="0x9" attributeId="0x1000023A" aggregation="Sum" />
+          <column stringId="BombsDefused" id="0x8" attributeId="0x1000004D" aggregation="Sum" />
+          <column stringId="Rating" id="0xA" attributeId="0x20000046" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="Deathmatch" id="0x61" arbitrated="false" resetType="Never" serverLocation="DemonWare" isTeamLB="false" ratingColumn="0x6">
+        <Columns>
+          <column stringId="Kills" id="0x3" attributeId="0x1000024A" aggregation="Sum" />
+          <column stringId="Deaths" id="0x1" attributeId="0x10000248" aggregation="Sum" />
+          <column stringId="Shots" id="0x4" attributeId="0x1000024C" aggregation="Sum" />
+          <column stringId="Hits" id="0x2" attributeId="0x10000249" aggregation="Sum" />
+          <column stringId="Total_Time" id="0x5" attributeId="0x1000024D" aggregation="Sum" />
+          <column stringId="Rating" id="0x6" attributeId="0x2000024B" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="Team_Deathmatch" id="0x62" arbitrated="false" resetType="Never" serverLocation="DemonWare" isTeamLB="false" ratingColumn="0x6">
+        <Columns>
+          <column stringId="Kills" id="0x3" attributeId="0x10000250" aggregation="Sum" />
+          <column stringId="Deaths" id="0x1" attributeId="0x1000024E" aggregation="Sum" />
+          <column stringId="Shots" id="0x4" attributeId="0x10000252" aggregation="Sum" />
+          <column stringId="Hits" id="0x2" attributeId="0x1000024F" aggregation="Sum" />
+          <column stringId="Total_Time" id="0x5" attributeId="0x10000253" aggregation="Sum" />
+          <column stringId="Rating" id="0x6" attributeId="0x20000251" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="Overall" id="0x63" arbitrated="false" resetType="Never" serverLocation="DemonWare" isTeamLB="false" ratingColumn="0x7">
+        <Columns>
+          <column stringId="Kills" id="0x6" attributeId="0x1000006F" aggregation="Sum" />
+          <column stringId="Deaths" id="0x1" attributeId="0x10000070" aggregation="Sum" />
+          <column stringId="Hits" id="0x4" attributeId="0x10000073" aggregation="Sum" />
+          <column stringId="Headshots" id="0x3" attributeId="0x10000071" aggregation="Sum" />
+          <column stringId="TeamKills" id="0xC" attributeId="0x10000243" aggregation="Sum" />
+          <column stringId="Rating" id="0x7" attributeId="0x20000077" aggregation="Sum" />
+          <column stringId="Killing_Streak" id="0x8" attributeId="0x10000075" aggregation="Sum" />
+          <column stringId="Death_Streak" id="0x9" attributeId="0x10000076" aggregation="Sum" />
+          <column stringId="PEC_Rank" id="0xA" attributeId="0x10000074" aggregation="Sum" />
+          <column stringId="Shots" id="0xB" attributeId="0x10000072" aggregation="Sum" />
+          <column stringId="Day" id="0xD" attributeId="0x100001FA" aggregation="Sum" />
+          <column stringId="Month" id="0xE" attributeId="0x100001FB" aggregation="Sum" />
+          <column stringId="Year" id="0xF" attributeId="0x100001FC" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="Weapons_Times" id="0x65" arbitrated="false" resetType="Never" serverLocation="DemonWare" isTeamLB="false" ratingColumn="0x2D">
+        <Columns>
+          <column stringId="MK23_Time" id="0x1" attributeId="0x1000007A" aggregation="Sum" />
+          <column stringId="USP40_Time" id="0x2" attributeId="0x1000007E" aggregation="Sum" />
+          <column stringId="P92FS_Time" id="0x3" attributeId="0x10000081" aggregation="Sum" />
+          <column stringId="Glock_Time" id="0x4" attributeId="0x10000084" aggregation="Sum" />
+          <column stringId="P99_Time" id="0x22" attributeId="0x10000223" aggregation="Sum" />
+          <column stringId="DE_Time" id="0x5" attributeId="0x10000087" aggregation="Sum" />
+          <column stringId="Bull_Time" id="0x6" attributeId="0x1000008A" aggregation="Sum" />
+          <column stringId="MP5_Time" id="0x7" attributeId="0x1000008E" aggregation="Sum" />
+          <column stringId="MP7A1_Time" id="0x8" attributeId="0x10000091" aggregation="Sum" />
+          <column stringId="UMP45_Time" id="0x9" attributeId="0x10000094" aggregation="Sum" />
+          <column stringId="P90_Time" id="0xA" attributeId="0x10000097" aggregation="Sum" />
+          <column stringId="MP9_Time" id="0xB" attributeId="0x1000009B" aggregation="Sum" />
+          <column stringId="MAC11_Time" id="0xC" attributeId="0x1000009E" aggregation="Sum" />
+          <column stringId="AUG_Para_Time" id="0x23" attributeId="0x10000225" aggregation="Sum" />
+          <column stringId="Type_05_JS_Time" id="0x24" attributeId="0x10000227" aggregation="Sum" />
+          <column stringId="VZ_83_Time" id="0x25" attributeId="0x10000229" aggregation="Sum" />
+          <column stringId="SCAR_Time" id="0xD" attributeId="0x100000A2" aggregation="Sum" />
+          <column stringId="M8_Time" id="0xE" attributeId="0x100000A5" aggregation="Sum" />
+          <column stringId="AUGA3_Time" id="0xF" attributeId="0x100000A8" aggregation="Sum" />
+          <column stringId="G3KA4_Time" id="0x10" attributeId="0x100000AB" aggregation="Sum" />
+          <column stringId="A552C_Time" id="0x11" attributeId="0x100000AF" aggregation="Sum" />
+          <column stringId="G36C_Time" id="0x12" attributeId="0x100000B2" aggregation="Sum" />
+          <column stringId="MTAR32__Time" id="0x13" attributeId="0x100000B5" aggregation="Sum" />
+          <column stringId="Famas_Time" id="0x14" attributeId="0x100000B8" aggregation="Sum" />
+          <column stringId="AK47_Time" id="0x15" attributeId="0x100000BB" aggregation="Sum" />
+          <column stringId="FNC_Time" id="0x26" attributeId="0x1000022B" aggregation="Sum" />
+          <column stringId="L85A2_Time" id="0x27" attributeId="0x1000022D" aggregation="Sum" />
+          <column stringId="AKS_74U_Time" id="0x28" attributeId="0x1000022F" aggregation="Sum" />
+          <column stringId="M468_Time" id="0x29" attributeId="0x10000231" aggregation="Sum" />
+          <column stringId="MK46_Time" id="0x16" attributeId="0x100000C2" aggregation="Sum" />
+          <column stringId="L21E_Time" id="0x17" attributeId="0x100000C5" aggregation="Sum" />
+          <column stringId="M249_Time" id="0x18" attributeId="0x100000C8" aggregation="Sum" />
+          <column stringId="MG36" id="0x19" attributeId="0x100000CB" aggregation="Sum" />
+          <column stringId="M3_Time" id="0x1A" attributeId="0x100000CF" aggregation="Sum" />
+          <column stringId="SPAS12_Time" id="0x1B" attributeId="0x100000D2" aggregation="Sum" />
+          <column stringId="S870MCS_Time" id="0x1C" attributeId="0x100000D5" aggregation="Sum" />
+          <column stringId="XM26_Time" id="0x1D" attributeId="0x100000D8" aggregation="Sum" />
+          <column stringId="The_500_Tactical_Time" id="0x2A" attributeId="0x10000233" aggregation="Sum" />
+          <column stringId="PSG1_Time" id="0x1E" attributeId="0x100000DD" aggregation="Sum" />
+          <column stringId="M40A1_Time" id="0x1F" attributeId="0x100000E0" aggregation="Sum" />
+          <column stringId="SV98_Time" id="0x20" attributeId="0x100000E3" aggregation="Sum" />
+          <column stringId="Scout_Time" id="0x21" attributeId="0x100000E6" aggregation="Sum" />
+          <column stringId="L96_Artic_Warfare_Time" id="0x2B" attributeId="0x10000235" aggregation="Sum" />
+          <column stringId="SR_25_SD_Time" id="0x2C" attributeId="0x10000237" aggregation="Sum" />
+          <column stringId="Rating" id="0x2D" attributeId="0x2000008B" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="Weapons_Kills" id="0x66" arbitrated="false" resetType="Never" serverLocation="DemonWare" isTeamLB="false" ratingColumn="0x2D">
+        <Columns>
+          <column stringId="MK23_Kills" id="0x1" attributeId="0x10000078" aggregation="Sum" />
+          <column stringId="USP40_Kills" id="0x2" attributeId="0x1000007C" aggregation="Sum" />
+          <column stringId="P92FS_Kills" id="0x3" attributeId="0x1000007F" aggregation="Sum" />
+          <column stringId="Glock_Kills" id="0x4" attributeId="0x10000082" aggregation="Sum" />
+          <column stringId="P99_Kills" id="0x22" attributeId="0x10000222" aggregation="Sum" />
+          <column stringId="DE_Kills" id="0x5" attributeId="0x10000085" aggregation="Sum" />
+          <column stringId="Bull_Kills" id="0x6" attributeId="0x10000088" aggregation="Sum" />
+          <column stringId="MP5_Kills" id="0x7" attributeId="0x1000008C" aggregation="Sum" />
+          <column stringId="MP7A1_Kills" id="0x8" attributeId="0x1000008F" aggregation="Sum" />
+          <column stringId="UMP45_Kills" id="0x9" attributeId="0x10000092" aggregation="Sum" />
+          <column stringId="P90_Kills" id="0xA" attributeId="0x10000095" aggregation="Sum" />
+          <column stringId="MP9_Kills" id="0xB" attributeId="0x10000099" aggregation="Sum" />
+          <column stringId="MAC11_Kills" id="0xC" attributeId="0x1000009C" aggregation="Sum" />
+          <column stringId="AUG_Para_Kills" id="0x23" attributeId="0x10000224" aggregation="Sum" />
+          <column stringId="Type_05_JS_Kills" id="0x24" attributeId="0x10000226" aggregation="Sum" />
+          <column stringId="VZ_83_Kills" id="0x25" attributeId="0x10000228" aggregation="Sum" />
+          <column stringId="SCAR_Kills" id="0xD" attributeId="0x100000A0" aggregation="Sum" />
+          <column stringId="M8_Kills" id="0xE" attributeId="0x100000A3" aggregation="Sum" />
+          <column stringId="AUGA3_Kills" id="0xF" attributeId="0x100000A6" aggregation="Sum" />
+          <column stringId="G3KA4_Kills" id="0x10" attributeId="0x100000BD" aggregation="Sum" />
+          <column stringId="A552C_Kills" id="0x11" attributeId="0x100000AD" aggregation="Sum" />
+          <column stringId="G36C_Kills" id="0x12" attributeId="0x100000B0" aggregation="Sum" />
+          <column stringId="MTAR21_Kills" id="0x13" attributeId="0x100000B3" aggregation="Sum" />
+          <column stringId="Famas_Kills" id="0x14" attributeId="0x100000B6" aggregation="Sum" />
+          <column stringId="AK47_Kills" id="0x15" attributeId="0x100000B9" aggregation="Sum" />
+          <column stringId="FNC_Kills" id="0x26" attributeId="0x1000022A" aggregation="Sum" />
+          <column stringId="L85A2" id="0x27" attributeId="0x1000022C" aggregation="Sum" />
+          <column stringId="AKS_74U_Kills" id="0x28" attributeId="0x1000022E" aggregation="Sum" />
+          <column stringId="M468_Kills" id="0x29" attributeId="0x10000230" aggregation="Sum" />
+          <column stringId="MK46_Kills" id="0x16" attributeId="0x100000C0" aggregation="Sum" />
+          <column stringId="L21E_Kills" id="0x17" attributeId="0x100000C3" aggregation="Sum" />
+          <column stringId="M249_Kills" id="0x18" attributeId="0x100000C6" aggregation="Sum" />
+          <column stringId="MG36_Kills" id="0x19" attributeId="0x100000C9" aggregation="Sum" />
+          <column stringId="M3_Kills" id="0x1A" attributeId="0x100000CD" aggregation="Sum" />
+          <column stringId="SPAS12_Kills" id="0x1B" attributeId="0x100000D0" aggregation="Sum" />
+          <column stringId="S870_Kills" id="0x1C" attributeId="0x100000D3" aggregation="Sum" />
+          <column stringId="XM26_Kills" id="0x1D" attributeId="0x100000D6" aggregation="Sum" />
+          <column stringId="The_500_Tactical_Kills" id="0x2A" attributeId="0x10000232" aggregation="Sum" />
+          <column stringId="PSG1_Kills" id="0x1E" attributeId="0x100000DB" aggregation="Sum" />
+          <column stringId="M40A1_Kills" id="0x1F" attributeId="0x100000DE" aggregation="Sum" />
+          <column stringId="SV98_Kills" id="0x20" attributeId="0x100000E1" aggregation="Sum" />
+          <column stringId="Scout_Kills" id="0x21" attributeId="0x100000E4" aggregation="Sum" />
+          <column stringId="L96_Artic_Warfare_Kills" id="0x2B" attributeId="0x10000234" aggregation="Sum" />
+          <column stringId="SR_25_SD_Kills" id="0x2C" attributeId="0x10000236" aggregation="Sum" />
+          <column stringId="Rating" id="0x2D" attributeId="0x200000D9" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="Total_Conquest" id="0x67" arbitrated="false" resetType="Never" serverLocation="DemonWare" isTeamLB="false" ratingColumn="0x7">
+        <Columns>
+          <column stringId="Kills" id="0x1" attributeId="0x10000183" aggregation="Sum" />
+          <column stringId="Deaths" id="0x2" attributeId="0x10000182" aggregation="Sum" />
+          <column stringId="Shots" id="0x3" attributeId="0x10000185" aggregation="Sum" />
+          <column stringId="Hits" id="0x4" attributeId="0x10000186" aggregation="Sum" />
+          <column stringId="Total_Time" id="0x5" attributeId="0x10000184" aggregation="Sum" />
+          <column stringId="MRI" id="0x6" attributeId="0x10000187" aggregation="Sum" />
+          <column stringId="Rating" id="0x7" attributeId="0x2000018A" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="DownloadedMaps" id="0x68" arbitrated="false" resetType="Never" serverLocation="DemonWare" isTeamLB="false" ratingColumn="0x22">
+        <Columns>
+          <column stringId="Map01_Kills" id="0x1" attributeId="0x1000018F" aggregation="Sum" />
+          <column stringId="Map01_Deaths" id="0x2" attributeId="0x1000018E" aggregation="Sum" />
+          <column stringId="Map01_Time" id="0x3" attributeId="0x10000190" aggregation="Sum" />
+          <column stringId="Map02_Kills" id="0x4" attributeId="0x10000192" aggregation="Sum" />
+          <column stringId="Map02_Death" id="0x6" attributeId="0x10000191" aggregation="Sum" />
+          <column stringId="Map02_Time" id="0x5" attributeId="0x10000193" aggregation="Sum" />
+          <column stringId="Map03_Kills" id="0x7" attributeId="0x10000195" aggregation="Sum" />
+          <column stringId="Map03_Deaths" id="0x8" attributeId="0x10000194" aggregation="Sum" />
+          <column stringId="Map03_Time" id="0x9" attributeId="0x10000196" aggregation="Sum" />
+          <column stringId="Map04_Kills" id="0xA" attributeId="0x10000198" aggregation="Sum" />
+          <column stringId="Map04_Deaths" id="0xB" attributeId="0x10000197" aggregation="Sum" />
+          <column stringId="Map04_Time" id="0xC" attributeId="0x10000199" aggregation="Sum" />
+          <column stringId="Map05_Kills" id="0xD" attributeId="0x1000019B" aggregation="Sum" />
+          <column stringId="Map05_Deaths" id="0xE" attributeId="0x1000019A" aggregation="Sum" />
+          <column stringId="Map05_Time" id="0xF" attributeId="0x1000019C" aggregation="Sum" />
+          <column stringId="Map06_Kills" id="0x10" attributeId="0x1000019E" aggregation="Sum" />
+          <column stringId="Map06_Deaths" id="0x11" attributeId="0x1000019D" aggregation="Sum" />
+          <column stringId="Map06_Time" id="0x12" attributeId="0x1000019F" aggregation="Sum" />
+          <column stringId="Map07_Kills" id="0x13" attributeId="0x100001A1" aggregation="Sum" />
+          <column stringId="Map07_Deaths" id="0x14" attributeId="0x100001A0" aggregation="Sum" />
+          <column stringId="Map07_Time" id="0x15" attributeId="0x100001A2" aggregation="Sum" />
+          <column stringId="Map08_Kills" id="0x16" attributeId="0x100001A4" aggregation="Sum" />
+          <column stringId="Map08_Deaths" id="0x17" attributeId="0x100001A3" aggregation="Sum" />
+          <column stringId="Map08_Time" id="0x18" attributeId="0x100001A5" aggregation="Sum" />
+          <column stringId="Map09_Kills" id="0x19" attributeId="0x100001A7" aggregation="Sum" />
+          <column stringId="Map09_Deaths" id="0x1A" attributeId="0x100001A6" aggregation="Sum" />
+          <column stringId="Map09_Time" id="0x1B" attributeId="0x100001A8" aggregation="Sum" />
+          <column stringId="Map10_Kills" id="0x1C" attributeId="0x100001AA" aggregation="Sum" />
+          <column stringId="Map10_Deaths" id="0x1D" attributeId="0x100001A9" aggregation="Sum" />
+          <column stringId="Map10_Time" id="0x1E" attributeId="0x100001AB" aggregation="Sum" />
+          <column stringId="Map11_Kills" id="0x1F" attributeId="0x100001AD" aggregation="Sum" />
+          <column stringId="Map11_Deaths" id="0x20" attributeId="0x100001AC" aggregation="Sum" />
+          <column stringId="Map11_Time" id="0x21" attributeId="0x100001AE" aggregation="Sum" />
+          <column stringId="Rating" id="0x22" attributeId="0x200001AF" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="DownloadedMaps02" id="0x69" arbitrated="false" resetType="Never" serverLocation="DemonWare" isTeamLB="false" ratingColumn="0x1C">
+        <Columns>
+          <column stringId="Map12_Kills" id="0x1" attributeId="0x100001CF" aggregation="Sum" />
+          <column stringId="Map12_Deaths" id="0xA" attributeId="0x100001C6" aggregation="Sum" />
+          <column stringId="Map12_Time" id="0x13" attributeId="0x100001D8" aggregation="Sum" />
+          <column stringId="Map13_Kills" id="0x2" attributeId="0x100001D0" aggregation="Sum" />
+          <column stringId="Map13_Deaths" id="0xB" attributeId="0x100001C7" aggregation="Sum" />
+          <column stringId="Map13_Time" id="0x14" attributeId="0x100001D9" aggregation="Sum" />
+          <column stringId="Map14_Kills" id="0x3" attributeId="0x100001D1" aggregation="Sum" />
+          <column stringId="Map14_Deaths" id="0xC" attributeId="0x100001C8" aggregation="Sum" />
+          <column stringId="Map14_Time" id="0x15" attributeId="0x100001DA" aggregation="Sum" />
+          <column stringId="Map15_Kills" id="0x4" attributeId="0x100001D2" aggregation="Sum" />
+          <column stringId="Map15_Deaths" id="0xD" attributeId="0x100001C9" aggregation="Sum" />
+          <column stringId="Map15_Time" id="0x16" attributeId="0x100001DB" aggregation="Sum" />
+          <column stringId="Map16_Kills" id="0x5" attributeId="0x100001D3" aggregation="Sum" />
+          <column stringId="Map16_Deaths" id="0xE" attributeId="0x100001CA" aggregation="Sum" />
+          <column stringId="Map16_Time" id="0x17" attributeId="0x100001DC" aggregation="Sum" />
+          <column stringId="Map17_Kills" id="0x6" attributeId="0x100001D4" aggregation="Sum" />
+          <column stringId="Map17_Deaths" id="0xF" attributeId="0x100001CB" aggregation="Sum" />
+          <column stringId="Map17_Time" id="0x18" attributeId="0x100001DD" aggregation="Sum" />
+          <column stringId="Map18_Kills" id="0x7" attributeId="0x100001D5" aggregation="Sum" />
+          <column stringId="Map18_Deaths" id="0x10" attributeId="0x100001CC" aggregation="Sum" />
+          <column stringId="Map18_Time" id="0x19" attributeId="0x100001DE" aggregation="Sum" />
+          <column stringId="Map19_Kills" id="0x8" attributeId="0x100001D6" aggregation="Sum" />
+          <column stringId="Map19_Deaths" id="0x11" attributeId="0x100001CD" aggregation="Sum" />
+          <column stringId="Map19_Time" id="0x1A" attributeId="0x100001E0" aggregation="Sum" />
+          <column stringId="Map20_Kills" id="0x9" attributeId="0x100001D7" aggregation="Sum" />
+          <column stringId="Map20_Deaths" id="0x12" attributeId="0x100001CE" aggregation="Sum" />
+          <column stringId="Map20_Time" id="0x1B" attributeId="0x100001DF" aggregation="Sum" />
+          <column stringId="Rating" id="0x1C" attributeId="0x200001E7" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="Team_Leader" id="0x6A" arbitrated="false" resetType="Never" serverLocation="DemonWare" isTeamLB="false" ratingColumn="0x8">
+        <Columns>
+          <column stringId="Kills" id="0x1" attributeId="0x1000023B" aggregation="Sum" />
+          <column stringId="Deaths" id="0x2" attributeId="0x1000023E" aggregation="Sum" />
+          <column stringId="Shots" id="0x3" attributeId="0x1000023C" aggregation="Sum" />
+          <column stringId="Hits" id="0x4" attributeId="0x1000023D" aggregation="Sum" />
+          <column stringId="LeadersKilled" id="0x5" attributeId="0x10000241" aggregation="Sum" />
+          <column stringId="Extractions" id="0x7" attributeId="0x10000244" aggregation="Sum" />
+          <column stringId="Total_Time" id="0x6" attributeId="0x10000240" aggregation="Sum" />
+          <column stringId="Rating" id="0x8" attributeId="0x2000023F" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="Maps" id="0xB6" arbitrated="false" resetType="Never" serverLocation="DemonWare" isTeamLB="false" ratingColumn="0x2B">
+        <Columns>
+          <column stringId="Map_Import_Kills" id="0x1" attributeId="0x10000271" aggregation="Sum" />
+          <column stringId="Map_Import_Deaths" id="0x2" attributeId="0x10000272" aggregation="Sum" />
+          <column stringId="Map_Import_Time" id="0x3" attributeId="0x10000273" aggregation="Sum" />
+          <column stringId="Map_Dantes_Kills" id="0x4" attributeId="0x10000274" aggregation="Sum" />
+          <column stringId="Map_Dantes_Deaths" id="0x5" attributeId="0x10000275" aggregation="Sum" />
+          <column stringId="Map_Dantes_Time" id="0x6" attributeId="0x10000276" aggregation="Sum" />
+          <column stringId="Map_Neon_Kills" id="0x7" attributeId="0x10000278" aggregation="Sum" />
+          <column stringId="Map_Neon_Deaths" id="0x8" attributeId="0x10000279" aggregation="Sum" />
+          <column stringId="Map_Neon_Time" id="0x9" attributeId="0x1000027A" aggregation="Sum" />
+          <column stringId="Map_Oil_Kills" id="0xA" attributeId="0x1000027B" aggregation="Sum" />
+          <column stringId="Map_Oil_Deaths" id="0xB" attributeId="0x1000027C" aggregation="Sum" />
+          <column stringId="Map_Oil_Time" id="0xC" attributeId="0x1000027D" aggregation="Sum" />
+          <column stringId="Map_Chinese_Kills" id="0xD" attributeId="0x1000027E" aggregation="Sum" />
+          <column stringId="Map_Chinese_Deaths" id="0xE" attributeId="0x1000027F" aggregation="Sum" />
+          <column stringId="Map_Chinese_Time" id="0xF" attributeId="0x10000280" aggregation="Sum" />
+          <column stringId="Map_Trainyard_Kills" id="0x10" attributeId="0x10000281" aggregation="Sum" />
+          <column stringId="Map_Trainyard_Deaths" id="0x11" attributeId="0x10000282" aggregation="Sum" />
+          <column stringId="Map_Trainyard_Time" id="0x12" attributeId="0x10000283" aggregation="Sum" />
+          <column stringId="Map_Penthouse_Kills" id="0x13" attributeId="0x10000284" aggregation="Sum" />
+          <column stringId="Map_Penthouse_Deaths" id="0x14" attributeId="0x10000285" aggregation="Sum" />
+          <column stringId="Map_Penthouse_Time" id="0x15" attributeId="0x10000286" aggregation="Sum" />
+          <column stringId="Map_Conven_Kills" id="0x16" attributeId="0x10000287" aggregation="Sum" />
+          <column stringId="Map_Conven_Deaths" id="0x17" attributeId="0x10000288" aggregation="Sum" />
+          <column stringId="Map_Conven_Time" id="0x18" attributeId="0x10000289" aggregation="Sum" />
+          <column stringId="Map_MurderTown_Kills" id="0x19" attributeId="0x1000028A" aggregation="Sum" />
+          <column stringId="Map_MurderTown_Deaths" id="0x1A" attributeId="0x1000028B" aggregation="Sum" />
+          <column stringId="Map_MurderTown_Time" id="0x1B" attributeId="0x1000028C" aggregation="Sum" />
+          <column stringId="Map_Training_Kills" id="0x1C" attributeId="0x1000028D" aggregation="Sum" />
+          <column stringId="Map_Training_Deaths" id="0x1D" attributeId="0x1000028E" aggregation="Sum" />
+          <column stringId="Map_Training_Time" id="0x1E" attributeId="0x1000028F" aggregation="Sum" />
+          <column stringId="Map_Streets_Kills" id="0x1F" attributeId="0x10000290" aggregation="Sum" />
+          <column stringId="Map_Streets_Deaths" id="0x20" attributeId="0x10000291" aggregation="Sum" />
+          <column stringId="Map_Streets_Time" id="0x21" attributeId="0x10000292" aggregation="Sum" />
+          <column stringId="Map_Killhouse_Kills" id="0x22" attributeId="0x10000294" aggregation="Sum" />
+          <column stringId="Map_Killhouse_Deaths" id="0x23" attributeId="0x10000295" aggregation="Sum" />
+          <column stringId="Map_Killhouse_Time" id="0x24" attributeId="0x10000296" aggregation="Sum" />
+          <column stringId="Map_Presidio_Kills" id="0x25" attributeId="0x10000297" aggregation="Sum" />
+          <column stringId="Map_Presidio_Deaths" id="0x26" attributeId="0x10000298" aggregation="Sum" />
+          <column stringId="Map_Presidio_Time" id="0x27" attributeId="0x10000299" aggregation="Sum" />
+          <column stringId="Map_Convent_Kills" id="0x28" attributeId="0x1000029A" aggregation="Sum" />
+          <column stringId="Map_Convent_Deaths" id="0x29" attributeId="0x1000029B" aggregation="Sum" />
+          <column stringId="Map_Convent_Time" id="0x2A" attributeId="0x1000029C" aggregation="Sum" />
+          <column stringId="Rating" id="0x2B" attributeId="0x20000101" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="None_Ranked_TrueSkill" id="0xFFFF0000" arbitrated="true" resetType="Never" serverLocation="Live360 TrueSkill" isTeamLB="false" ratingColumn="0x0">
+        <Columns>
+          <column stringId="Skill" id="0x3D" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Games_Played" id="0x3E" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Mu" id="0x3F" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Sigma" id="0x40" attributeId="0xFFFFFFFF" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="None_Standard_TrueSkill" id="0xFFFE0000" arbitrated="false" resetType="Never" serverLocation="Live360 TrueSkill" isTeamLB="false" ratingColumn="0x0">
+        <Columns>
+          <column stringId="Skill" id="0x3D" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Games_Played" id="0x3E" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Mu" id="0x3F" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Sigma" id="0x40" attributeId="0xFFFFFFFF" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="AttackAndDefend_Ranked_TrueSkill" id="0xFFFF0001" arbitrated="true" resetType="Never" serverLocation="Live360 TrueSkill" isTeamLB="false" ratingColumn="0x0">
+        <Columns>
+          <column stringId="Skill" id="0x3D" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Games_Played" id="0x3E" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Mu" id="0x3F" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Sigma" id="0x40" attributeId="0xFFFFFFFF" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="AttackAndDefend_Standard_TrueSkill" id="0xFFFE0001" arbitrated="false" resetType="Never" serverLocation="Live360 TrueSkill" isTeamLB="false" ratingColumn="0x0">
+        <Columns>
+          <column stringId="Skill" id="0x3D" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Games_Played" id="0x3E" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Mu" id="0x3F" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Sigma" id="0x40" attributeId="0xFFFFFFFF" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="Deathmatch_Ranked_TrueSkill" id="0xFFFF0002" arbitrated="true" resetType="Never" serverLocation="Live360 TrueSkill" isTeamLB="false" ratingColumn="0x0">
+        <Columns>
+          <column stringId="Skill" id="0x3D" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Games_Played" id="0x3E" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Mu" id="0x3F" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Sigma" id="0x40" attributeId="0xFFFFFFFF" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="Deathmatch_Standard_TrueSkill" id="0xFFFE0002" arbitrated="false" resetType="Never" serverLocation="Live360 TrueSkill" isTeamLB="false" ratingColumn="0x0">
+        <Columns>
+          <column stringId="Skill" id="0x3D" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Games_Played" id="0x3E" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Mu" id="0x3F" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Sigma" id="0x40" attributeId="0xFFFFFFFF" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="TeamDeathmatch_Ranked_TrueSkill" id="0xFFFF0003" arbitrated="true" resetType="Never" serverLocation="Live360 TrueSkill" isTeamLB="false" ratingColumn="0x0">
+        <Columns>
+          <column stringId="Skill" id="0x3D" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Games_Played" id="0x3E" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Mu" id="0x3F" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Sigma" id="0x40" attributeId="0xFFFFFFFF" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="TeamDeathmatch_Standard_TrueSkill" id="0xFFFE0003" arbitrated="false" resetType="Never" serverLocation="Live360 TrueSkill" isTeamLB="false" ratingColumn="0x0">
+        <Columns>
+          <column stringId="Skill" id="0x3D" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Games_Played" id="0x3E" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Mu" id="0x3F" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Sigma" id="0x40" attributeId="0xFFFFFFFF" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="CoopStory_Ranked_TrueSkill" id="0xFFFF0004" arbitrated="true" resetType="Never" serverLocation="Live360 TrueSkill" isTeamLB="false" ratingColumn="0x0">
+        <Columns>
+          <column stringId="Skill" id="0x3D" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Games_Played" id="0x3E" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Mu" id="0x3F" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Sigma" id="0x40" attributeId="0xFFFFFFFF" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="CoopStory_Standard_TrueSkill" id="0xFFFE0004" arbitrated="false" resetType="Never" serverLocation="Live360 TrueSkill" isTeamLB="false" ratingColumn="0x0">
+        <Columns>
+          <column stringId="Skill" id="0x3D" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Games_Played" id="0x3E" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Mu" id="0x3F" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Sigma" id="0x40" attributeId="0xFFFFFFFF" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="CoopHunt_Ranked_TrueSkill" id="0xFFFF0005" arbitrated="true" resetType="Never" serverLocation="Live360 TrueSkill" isTeamLB="false" ratingColumn="0x0">
+        <Columns>
+          <column stringId="Skill" id="0x3D" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Games_Played" id="0x3E" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Mu" id="0x3F" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Sigma" id="0x40" attributeId="0xFFFFFFFF" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="CoopHunt_Standard_TrueSkill" id="0xFFFE0005" arbitrated="false" resetType="Never" serverLocation="Live360 TrueSkill" isTeamLB="false" ratingColumn="0x0">
+        <Columns>
+          <column stringId="Skill" id="0x3D" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Games_Played" id="0x3E" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Mu" id="0x3F" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Sigma" id="0x40" attributeId="0xFFFFFFFF" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="Conquest_Ranked_TrueSkill" id="0xFFFF0006" arbitrated="true" resetType="Never" serverLocation="Live360 TrueSkill" isTeamLB="false" ratingColumn="0x0">
+        <Columns>
+          <column stringId="Skill" id="0x3D" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Games_Played" id="0x3E" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Mu" id="0x3F" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Sigma" id="0x40" attributeId="0xFFFFFFFF" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="Conquest_Standard_TrueSkill" id="0xFFFE0006" arbitrated="false" resetType="Never" serverLocation="Live360 TrueSkill" isTeamLB="false" ratingColumn="0x0">
+        <Columns>
+          <column stringId="Skill" id="0x3D" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Games_Played" id="0x3E" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Mu" id="0x3F" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Sigma" id="0x40" attributeId="0xFFFFFFFF" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="TeamLeader_Ranked_TrueSkill" id="0xFFFF0007" arbitrated="true" resetType="Never" serverLocation="Live360 TrueSkill" isTeamLB="false" ratingColumn="0x0">
+        <Columns>
+          <column stringId="Skill" id="0x3D" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Games_Played" id="0x3E" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Mu" id="0x3F" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Sigma" id="0x40" attributeId="0xFFFFFFFF" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="TeamLeader_Standard_TrueSkill" id="0xFFFE0007" arbitrated="false" resetType="Never" serverLocation="Live360 TrueSkill" isTeamLB="false" ratingColumn="0x0">
+        <Columns>
+          <column stringId="Skill" id="0x3D" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Games_Played" id="0x3E" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Mu" id="0x3F" attributeId="0xFFFFFFFF" aggregation="Sum" />
+          <column stringId="Sigma" id="0x40" attributeId="0xFFFFFFFF" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+      <leaderboard stringId="Current_TrueSkill" id="0xFFFFFFFF" arbitrated="false" resetType="Never" serverLocation="Live360" isTeamLB="false" ratingColumn="0x0">
+        <Columns>
+          <column stringId="Relative_Score" id="0x3E" attributeId="0x1000800A" aggregation="Sum" />
+          <column stringId="Session_Team" id="0x3F" attributeId="0x1000800B" aggregation="Sum" />
+        </Columns>
+      </leaderboard>
+    </leaderboards>
+  </statistics>
+</agora>
+

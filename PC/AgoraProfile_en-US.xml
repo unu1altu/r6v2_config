@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agora version="3.4.2">
+  <profile>
+    <attributes>
+      <attribute name="AGORA_Profile_titleName" id="0x30000259" dataType="string" length="40" permission="public" />
+      <attribute name="AGORA_Profile_sessionID" id="0x2000025A" dataType="signed int64" length="64" permission="public" />
+    </attributes>
+  </profile>
+</agora>
+

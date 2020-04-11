@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration version="0.0.2">
+	<!-- Note: All time values are in milliseconds -->
+	<TaskTimeoutThreshold>30000</TaskTimeoutThreshold>
+	<SessionPlayerTimeoutThreshold>29000</SessionPlayerTimeoutThreshold>
+	<SessionPlayerHeartbeatPeriod>6000</SessionPlayerHeartbeatPeriod>
+	<UpdateOfSessionOnServerPeriod>3600000</UpdateOfSessionOnServerPeriod>	
+	<MessagingServiceTaskDelayPeriod>3000</MessagingServiceTaskDelayPeriod>
+	<ClanServiceTaskDelayPeriod>5000</ClanServiceTaskDelayPeriod>			
+	<!-- The port the engine listens on -->
+	<AgoraGamePort>1010</AgoraGamePort>				
+	<!-- Configuration for Messages-->
+	<MaxStoredMessages>50</MaxStoredMessages>
+	<!-- All sizes are in characters-->
+	<MessageMaxBodySize>2048</MessageMaxBodySize>
+	<MessageMaxSubjectSize>255</MessageMaxSubjectSize>
+	<!-- Configuration for maximum number of recent players -->
+	<MaxRecentPlayers>100</MaxRecentPlayers>		
+</configuration>
